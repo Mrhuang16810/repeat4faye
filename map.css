@@ -1,0 +1,114 @@
+.map-title-address-container{
+    background-color: rgb(243, 243, 243);
+    margin-top: 5px;
+}
+.map-title-address-container h1{
+    text-align: center;
+    color: rgb(128, 128, 128);
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+.map-title-address-container hr{
+    height: 2px;
+    border: none;
+    background-color: rgb(188,143,143);
+    width: 25%;
+}
+.map-title-address-container .map-title-address-container-map67{
+    background-image: url("images/教室路線圖.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 470px;
+}
+.map-title-address-container .map-title-address-container-address33{
+    display: flex;
+    flex-direction: column;
+}
+.map-title-address-container .map-title-address-container-address33 p{
+    font-size: 14px;
+    padding: 0 1em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 2em;
+}
+.map-title-address-container .map-title-address-container-address33 span{
+    font-size: 12px;
+    padding: 0 0.5em 0 2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.show768-map-title-address-container{
+    display: none;
+}
+@media(min-width:768px){
+    .map-title-address-container{
+        display: none;
+    }
+    .show768-map-title-address-container{
+        display: block;
+        background-color: rgb(243, 243, 243);
+    }
+    .show768-map-title-address-container h1{
+        text-align: center;
+        color: rgb(128, 128, 128);
+        font-size: 22px;
+        letter-spacing: 3px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .show768-map-title-address-container hr{
+        height: 2px;
+        border: none;
+        background-color: rgb(188,143,143);
+        width: 25%;
+    }
+    .show768-map-title-address-container .show768-map-title-address-container-textcontainer .show768-map-title-address-container-textcontainer-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .show768-map-title-address-container .show768-map-title-address-container-textcontainer .show768-map-title-address-container-textcontainer-text p{
+        font-size: 14px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    .show768-map-title-address-container .show768-map-title-address-container-textcontainer .show768-map-title-address-container-textcontainer-text span{
+        font-size: 12px;
+        padding: 0 2em;
+        font-weight: 500;
+        letter-spacing: 2px;
+        line-height: 18px;
+    }
+    .show768-map-title-address-container .show768-map-title-address-container-textcontainer .show768-map-title-address-container-textcontainer-img{
+        display: flex;
+        justify-content: center;
+    }
+    .show768-map-title-address-container .show768-map-title-address-container-textcontainer .show768-map-title-address-container-textcontainer-img img{
+        width: 70%;
+        margin-top: 10px;
+    }
+}
+@media(min-width:992px){
+    .show768-map-title-address-container{
+        margin-top: 5em;
+    }
+    .show768-map-title-address-container h1{
+        padding-top: 15px;
+    }
+    .show768-map-title-address-container .show768-map-title-address-container-textcontainer .show768-map-title-address-container-textcontainer-text p{
+        font-size: 18px;
+    }
+    .show768-map-title-address-container .show768-map-title-address-container-textcontainer .show768-map-title-address-container-textcontainer-text span{
+        font-size: 14px;
+        letter-spacing: 3px;
+        line-height: 22px;
+    }
+    .show768-map-title-address-container .show768-map-title-address-container-textcontainer .show768-map-title-address-container-textcontainer-img{
+        display: flex;
+        justify-content: center;
+    }
+    .show768-map-title-address-container .show768-map-title-address-container-textcontainer .show768-map-title-address-container-textcontainer-img img{
+        width: 60%;
+    }
+}

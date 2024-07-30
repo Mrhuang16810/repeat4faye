@@ -1,0 +1,153 @@
+.index-cover-container{
+    padding-top: 64px;
+}
+.index-cover-container .index-cover{
+    background-image: url("images/indexBig.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+}
+.index-cover-container .index-cover-qrCode-container img{
+    display: none;
+}
+.index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text{
+    width: 100%;
+    background-color: rgb(243,243,243);
+    padding: 10px 0;
+}
+.index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h1{
+    text-align: center;
+    color: rgb(128,128,128);
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin: 0;
+}
+.index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text hr{
+    height: 2px;
+    border: none;
+    background-color: rgb(188,143,143);
+    width: 35%;
+}
+.index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h3{
+    text-align: center;
+    color: rgb(128,128,128);
+    font-size: 12px;
+    margin: 4px 0;
+}
+.index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h4{
+    text-align: center;
+    color: rgb(128,128,128);
+    font-size: 10px;
+    margin: 4px 0;
+}
+.index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text{
+    position: relative;
+}
+.index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text .lineQRcode1{
+    height: 60%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text .lineQRcode2{
+    height: 60%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h5{
+    text-align: center;
+    color: rgb(128,128,128);
+    font-size: 12px;
+    margin: 0;
+}
+@media(min-width:768px){
+    .index-cover-container .index-cover{
+        height: 300px;
+    }
+    .index-cover-container .index-cover-qrCode-container img{
+        display: none;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text{
+        position: static;
+        top: 0;
+        right: 0;
+        padding: 1em 0 0.5em 0;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h1{
+        margin: 0;
+        font-size: 16px;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text hr{
+        height: 2px;
+        width: 35%;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h3{
+        font-size: 10px;
+        margin: 10px 0;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h4{
+        font-size: 10px;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text .lineQRcode1{
+        height: auto;
+        width: 65%;
+        display: block;
+        position: static;
+        margin: 0 auto;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text .lineQRcode2{
+        display: none
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h5{
+        margin: 10px 0 0 0;
+        font-size: 10px;
+    }
+}
+@media(min-width:992px){
+    .index-cover-container{
+        padding-top: 100px;
+    }
+    .index-cover-container .index-cover{
+        height: 450px;
+    }
+    .index-cover-container .index-cover-qrCode-container{
+        position: relative;
+    }
+    .index-cover-container .index-cover-qrCode-container img{
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: -2em;
+        right: 10em;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text{
+        position: absolute;
+        top: 4.5em;
+        right: 4em;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h1{
+        font-size: 20px;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text hr{
+        height: 3px;
+        width: 40%;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h3{
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h4{
+        font-size: 12px;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text .lineQRcode1{
+        width: 75%;
+        margin: 1em auto;
+    }
+    .index-cover-container .index-cover-qrCode-container .index-cover-qrCode-container-text h5{
+        margin: 10px 0 0 0;
+        font-size: 12px;
+    }
+}
